@@ -1,3 +1,7 @@
+# Hình ảnh sơ đồ
+
+![](/images/So%20do.drawio.png)
+
 # So sánh ưu/nhược điểm
 
 | Architecture characteristics | Layered Architecture                                | Microkernel Architecture |
