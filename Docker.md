@@ -132,8 +132,18 @@
 
 1. Tạo Dockerfile chạy một ứng dụng Node.js đơn giản
    > Yêu cầu:  
-   > Viết Dockerfile để chạy một ứng dụng Node.js hiển thị "Hello, Docker!" trên cổng 3000.
+   > Viết Dockerfile để chạy một ứng dụng Node.js hiển thị "Hello, Docker!" trên cổng 3000.  
    > Sử dụng node:18 làm base image.
+
+- Build image:
+
+  ![1.png](Phan_2/Bai_1/images/1.png)
+- Run container:
+
+  ![2.png](Phan_2/Bai_1/images/2.png)
+- Result:
+
+  ![3.png](Phan_2/Bai_1/images/3.png)
 
 2. Tạo Dockerfile chạy một ứng dụng Python Flask
    > Yêu cầu:  
