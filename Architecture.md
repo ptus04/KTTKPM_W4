@@ -1,14 +1,14 @@
-# Hình ảnh sơ đồ
+# Hình ảnh sơ đồ của 2 kiến trúc
 
 ![](/images/So%20do.drawio.png)
 
-# So sánh ưu/nhược điểm
+# So sánh ưu/nhược điểm của 2 kiến trúc
 
-| Architecture characteristics | Layered Architecture                                | Microkernel Architecture |
-| ---------------------------- | --------------------------------------------------- | ------------------------ |
+| Architecture characteristics | Layered Architecture                                | Microkernel Architecture                              |
+|------------------------------|-----------------------------------------------------|-------------------------------------------------------|
 | Deployability                | Khó deploy hơn vì phải deploy cả cục mỗi khi update | Dễ deploy hơn vì các plugin có thể độc lập phát triển |
 | Elasticity                   | Khó hơn vì tính monolithic                          | Tương tự vì cũng là monolithic                        |
-| Evolutionary                 | Khó hơn                                             | Dễ hơn vì các plugin độc lập nên dễ thay đổi          |
+| Evolutionary                 | Khó hơn                                             | Dễ hơn vì các plugin độc lập nên dễ thay đổi, mở rộng |
 | Fault tolerance              | Chịu lỗi kém: Lỗi xảy ra thì cả ứng dụng đều lỗi    | Tương tự                                              |
 | Modularity                   | Không có tính module                                | Có module nhưng chỉ dừng lại ở mức mở rộng            |
 | Overall cost                 | Chi phí thấp                                        | Tương tự                                              |
@@ -18,5 +18,4 @@
 | Simplicity                   | Cực kỳ đơn giản                                     | Phức tạp hơn chút                                     |
 | Testability                  | Hơi khó test                                        | Dễ test hơn, đặc biệt là từng module                  |
 
-
-==> Microkernel là thích hợp nhất trong 2 styles vì có nhiều tính chất tốt hơn như dễ deploy, mở rộng các tính năng hơn
+==> **Microkernel** là thích hợp nhất cho hệ thống CMS trong 2 styles vì có nhiều tính chất tốt hơn như dễ deploy, mở rộng các tính năng hơn
